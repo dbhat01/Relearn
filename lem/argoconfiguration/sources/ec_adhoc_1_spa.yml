@@ -1,18 +1,16 @@
-# lemSpecificData:
-#   label UI: EC-703 srt
 source_a:
   program_num: 1
   grooming:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: ENG
+        - language: SPA
           service_number: 1
           digital_cc: 0
           default_subtitle: true
     audio_grooming:
       - pid: 482
-        language: ENG
+        language: SPA
         skip_processing: false
         labels:
           - surround
@@ -21,28 +19,28 @@ source_a:
         skip_processing: false
     cc_conversion_mode: EIA608
   srt:
-    host: egress-5ab867c74ec0390058d69110.lrs.vos360.video
+    host: egress-5ab867c74ec0390058d68175.lrs.vos360.video
     port: 7086
     decryption_type: AES_256
-    decryption_key: bithaez8ahs4cap3ohGh
+    decryption_key: 7DSwOYiBE8AHUbNdv5m8
   secondary_srt:
-    host: egress-5ab867c74ec0390058d69310.lrs.vos360.video
+    host: egress-5ab867c74ec0390058d68375.lrs.vos360.video
     port: 7086
     decryption_type: AES_256
-    decryption_key: Zu2ahfae5ethohs3Thae
+    decryption_key: cPzHjxnq81dNqkwgMnct
 source_b:
   program_num: 1
   grooming:
     video_grooming:
       pid: 481
       closed_caption:
-        - language: ENG
+        - language: SPA
           service_number: 1
           digital_cc: 0
           default_subtitle: true
     audio_grooming:
       - pid: 482
-        language: ENG
+        language: SPA
         skip_processing: false
         labels:
           - surround
@@ -51,12 +49,12 @@ source_b:
         skip_processing: false
     cc_conversion_mode: EIA608
   srt:
-    host: egress-5ab867c74ec0390058d69310.lrs.vos360.video
+    host: egress-5ab867c74ec0390058d68375.lrs.vos360.video
     port: 7086
     decryption_type: AES_256
-    decryption_key: Zu2ahfae5ethohs3Thae
+    decryption_key: cPzHjxnq81dNqkwgMnct
   secondary_srt:
-    host: egress-5ab867c74ec0390058d69110.lrs.vos360.video
+    host: egress-5ab867c74ec0390058d68175.lrs.vos360.video
     port: 7086
     decryption_type: AES_256
-    decryption_key: bithaez8ahs4cap3ohGh
+    decryption_key: 7DSwOYiBE8AHUbNdv5m8
